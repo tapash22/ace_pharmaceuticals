@@ -24,12 +24,12 @@
         <div class="col-md-6">
           <div class="box">
             <div class="image">
-              <img src="../../assets/employe/1.png" />
-              <h2>Kbd. Ahmed Tarik Iqbal</h2>
+              <img src="../../assets/employe/b.png" />
+              <h2>Dr. K.M. Ehasanul Islam</h2>
             </div>
             <div class="details">
-              <h4>ED</h4>
-              <h5>kbdtarik26@yahoo.com</h5>
+              <h4>Marketing Manager</h4>
+              <h5>dr.ehasanul@gmail.com</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi odit quidem in consequuntur neque sequi provident,
@@ -88,6 +88,7 @@
           </div>
         </div>
       </div>
+
       <h1>Our Team members</h1>
       <div class="row3">
         <div class="col-md-3" v-for="employe in employes" :key="employe.id">
@@ -96,9 +97,9 @@
               <img :src="employe.image" />
             </div>
             <div class="card-body">
-              <h4>{{employe.name}}</h4>
-              <p>{{employe.designation}}</p>
-              <p>{{employe.email}}</p>
+              <h4>{{ employe.name }}</h4>
+              <p>{{ employe.designation }}</p>
+              <p>{{ employe.email }}</p>
             </div>
           </div>
         </div>
@@ -109,17 +110,41 @@
 
 <script>
 export default {
-  data(){
-    return{
-      employes:[
-        {id:1,name:"Dr. K.M. Ehasanul Islam",image:require('../../assets/employe/b.png'),designation:'Marketing Manager ',email:'dr.ehasanul@gmail.com'},
-        {id:2,name:"Md. Rabiul Awal ",image:require('../../assets/employe/3.png'),designation:'Assistant Sales Manager ',email:'awal.bau11@gmail.com'},
-         {id:3,name:"Md. Tashiqul Alam  ",image:require('../../assets/employe/4.png'),designation:'Assistant Sales Manager ',email:'tashiq87@gmail.com'},
-          {id:4,name:"Md. Tariqul Islam ",image:require('../../assets/employe/2.png'),designation:'Sr. Executive ',email:'mdtariqul300689@gmail.com'},
+  data() {
+    return {
+      employes: [
+        {
+          id: 1,
+          name: "Kbd. Ahmed Tarik Iqbal",
+          image: require("../../assets/employe/1.png"),
+          designation: "ED ",
+          email: "kbdtarik26@yahoo.com",
+        },
+        {
+          id: 2,
+          name: "Md. Tariqul Islam ",
+          image: require("../../assets/employe/2.png"),
+          designation: "Sr. Executive ",
+          email: "mdtariqul300689@gmail.com",
+        },
+        {
+          id: 3,
+          name: "Md. Rabiul Awal ",
+          image: require("../../assets/employe/3.png"),
+          designation: "Assistant Sales Manager ",
+          email: "awal.bau11@gmail.com",
+        },
+        {
+          id: 4,
+          name: "Md. Tashiqul Alam  ",
+          image: require("../../assets/employe/4.png"),
+          designation: "Assistant Sales Manager ",
+          email: "tashiq87@gmail.com",
+        },
       ],
     };
   },
-}
+};
 </script>
 
 
@@ -130,7 +155,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin:0;
+  margin-top: 100px;
 }
 .about h1 {
   font-size: 1.8rem;
@@ -156,13 +181,12 @@ export default {
 }
 .about .row2 .col-md-6 .box {
   width: 100%;
-  height: 100%;
+  height: 300px;
   padding: 0;
   margin: 0;
   display: flex;
-      border: 1px solid #f9a51a;
 }
-.about .row2 .col-md-6 .box:hover{
+.about .row2 .col-md-6 .box:hover {
   box-shadow: 0 0 10px #f9a51a;
 }
 .about .row2 .col-md-6 .box .image {
@@ -170,19 +194,16 @@ export default {
   height: 100%;
   padding: 0;
   margin: 0;
+  border: 1px solid #f9a51a;
 }
 .about .row2 .col-md-6 .box .image img {
   width: 100%;
   height: 85%;
   /* object-fit: cover; */
   background-position: center;
-  padding: 0;
-  margin:0;
 }
-.about .row2 .col-md-6 .box .image h2{
-  height: 15%;
-  width: 100%;
-    font-size: 1.3rem;
+.about .row2 .col-md-6 .box .image h2 {
+  font-size: 1.3rem;
   font-weight: 600;
   font-family: "Playfair Display", serif;
   padding: 10px;
@@ -195,6 +216,7 @@ export default {
   padding: 0;
   margin: 0;
   display: block;
+  border: 1px solid #f9a51a;
 }
 .about .row2 .col-md-6 .box .details h4 {
   font-size: 1.5rem;
@@ -225,6 +247,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 10px;
+
   margin: 0;
   display: flex;
   justify-content: center;
@@ -293,7 +316,7 @@ export default {
   margin: 0;
   background: #f9a51a;
 }
-.about .row3 .col-md-3 .card:hover{
+.about .row3 .col-md-3 .card:hover {
   box-shadow: 0 0 10px #f9a51a;
   cursor: pointer;
 }
