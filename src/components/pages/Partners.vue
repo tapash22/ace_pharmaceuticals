@@ -72,7 +72,7 @@ export default {
         {
           id: 6,
           name: "KILCO",
-          image: require("../../assets/partner/killion.png"),
+          image: require("../../assets/partner/kilion.png"),
           url: "https://www.kersia-group.com/uk",
           details:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic accusantium excepturi deserunt nam",
