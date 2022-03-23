@@ -24,12 +24,12 @@
         <div class="col-md-6">
           <div class="box">
             <div class="image">
-              <img src="../../assets/employe/b.png" />
-              <h2>Dr. K.M. Ehasanul Islam</h2>
+              <img src="../../assets/employe/1.png" />
+              <h2>Kbd. Ahmed Tarik Iqbal</h2>
             </div>
             <div class="details">
-              <h4>Marketing Manager</h4>
-              <h5>dr.ehasanul@gmail.com</h5>
+              <h4>ED</h4>
+              <h5>kbdtarik26@yahoo.com</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi odit quidem in consequuntur neque sequi provident,
@@ -115,10 +115,10 @@ export default {
       employes: [
         {
           id: 1,
-          name: "Kbd. Ahmed Tarik Iqbal",
-          image: require("../../assets/employe/1.png"),
-          designation: "ED ",
-          email: "kbdtarik26@yahoo.com",
+          name: "Dr. K.M. Ehasanul Islam",
+          image: require("../../assets/employe/b.png"),
+          designation: "Marketing Manager",
+          email: "dr.ehasanul@gmail.com",
         },
         {
           id: 2,
@@ -155,7 +155,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin-top: 100px;
+  margin: 0;
 }
 .about h1 {
   font-size: 1.8rem;

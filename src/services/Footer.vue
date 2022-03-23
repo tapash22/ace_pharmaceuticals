@@ -41,40 +41,40 @@
         </div>
         <div class="col-md-8">
           <h2>Our Partners</h2>
-             <ul>
-              <li>
-                <router-link to="/icc">ICC</router-link>
-              </li>
-              <li>
-                <router-link to="/orffa">Orffa</router-link>
-              </li>
-              <li>
-                <router-link to="/adifeed">AdiFeed</router-link>
-              </li>
-              <li>
-                <router-link to="/nutritech">Global Nutritech</router-link>
-              </li>
-              <li>
-                <router-link to="/vetneed">Vet Needs</router-link>
-              </li>
-              <li>
-                <router-link to="/sanzyme">SanzymeBiologics</router-link>
-              </li>
-              <li>
-                <router-link to="/bioarmor">Bioarmor</router-link>
-              </li>
+          <ul>
+            <li>
+              <router-link to="/icc">ICC</router-link>
+            </li>
+            <li>
+              <router-link to="/orffa">Orffa</router-link>
+            </li>
+            <li>
+              <router-link to="/adifeed">AdiFeed</router-link>
+            </li>
+            <li>
+              <router-link to="/nutritech">Global Nutritech</router-link>
+            </li>
+            <li>
+              <router-link to="/vetneed">Vet Needs</router-link>
+            </li>
+            <li>
+              <router-link to="/sanzyme">Sanzyme Biologics</router-link>
+            </li>
+            <li>
+              <router-link to="/bioarmor">Bio Armor</router-link>
+            </li>
 
-              <li>
-                <router-link to="/killion">killion</router-link>
-              </li>
-              <li>
-                <router-link to="/basf">Basf</router-link>
-              </li>
-            </ul>
+            <li>
+              <router-link to="/killion">kilco</router-link>
+            </li>
+            <li>
+              <router-link to="/basf">Basf</router-link>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="row2">
-        <p>Developed by ULTRAWAVE.digital</p>
+        <p>Developed by ultrawave.digital</p>
       </div>
     </div>
   </div>
@@ -143,47 +143,22 @@
   padding: 10px;
   margin: 0;
 }
-.footer .row3{
+.footer .row3 {
   width: 100%;
   height: 100%;
-  padding:0;
-  margin:0;
-  display: flex; 
+  padding: 0;
+  margin: 0;
+  display: flex;
   background: rgba(0, 128, 0, 0.63);
 }
-.row3 .col-md-4{
+.row3 .col-md-4 {
   width: 33%;
   height: 100%;
-  padding:0;
+  padding: 0;
   margin: 0;
   display: block;
 }
-.row3 .col-md-4 h2{
-  font-size: 1.5rem;
-  font-weight: 600;
-  font-family: "Playfair Display", serif;
-  text-align: center;
-    padding: 10px;
-  margin: 0;
-}
-.row3 .col-md-4 address{
-    padding:10px;
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 600;
-     font-family: "Playfair Display", serif;
-     text-align: justify;
-     margin-left: 20%;
-     padding: 0;
-}
-.row3 .col-md-8{
-    width: 65%;
-  height: 100%;
-  padding:0;
-  margin: 0;
-  display: block;
-}
-.row3 .col-md-8 h2{
+.row3 .col-md-4 h2 {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: "Playfair Display", serif;
@@ -191,22 +166,47 @@
   padding: 10px;
   margin: 0;
 }
-.row3 .col-md-8 ul{
+.row3 .col-md-4 address {
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  text-align: justify;
+  margin-left: 20%;
+  padding: 0;
+}
+.row3 .col-md-8 {
+  width: 65%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.row3 .col-md-8 h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.row3 .col-md-8 ul {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
   display: flex;
 }
-.row3 .col-md-8 ul li{
+.row3 .col-md-8 ul li {
   list-style: none;
-  padding:5px;
+  padding: 5px;
   margin: 0;
 }
-.row3 .col-md-8 ul li a{
+.row3 .col-md-8 ul li a {
   text-decoration: none;
   color: #000;
-    font-size: 1rem;
+  font-size: 1rem;
   font-weight: 600;
   font-family: "Playfair Display", serif;
   padding: 0;
@@ -241,5 +241,4 @@
   font-family: "Playfair Display", serif;
   color: #8bc53f;
 }
-
 </style>

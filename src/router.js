@@ -16,31 +16,32 @@ import Killion from "./components/sub_pages/Killion.vue";
 import Basf from "./components/sub_pages/Basf.vue";
 import Sanzyme from "./components/sub_pages/Sanzyme.vue";
 import Vetneeds from "./components/sub_pages/Vetneeds.vue";
+import Productdetails from "./components/sub_pages/Productdetails.vue";
 
-const routes =[
-    {path:'/',component: Home },
-    {path:'/about',component: About },
-    {path:'/products',component: Products },
-    {path:'/partners',component: Partners },
-    {path:'/contact',component: Contact },
-    {path:'/gallery',component: Gallery },
-    {path:'/login',component: Login },
+const routes = [
+  { path: "/", component: Home },
+  { path: "/about", component: About },
+  { path: "/products", component: Products },
+  { path: "/partners", component: Partners },
+  { path: "/contact", component: Contact },
+  { path: "/gallery", component: Gallery },
+  { path: "/login", component: Login },
 
-
-    {path:'/orffa',component: Orffa },
-    {path:'/adifeed',component: Adifeed },
-    {path:'/bioarmor',component: Bioarmor },
-    {path:'/icc',component: Icc },
-    {path:'/nutritech',component: Nutritech },
-    {path:'/killion',component: Killion },
-    { path:'/basf', component: Basf},
-    { path:'/sanzyme', component: Sanzyme},
-    { path:'/vetneed', component: Vetneeds},
+  { path: "/orffa", component: Orffa },
+  { path: "/adifeed", component: Adifeed },
+  { path: "/bioarmor", component: Bioarmor },
+  { path: "/icc", component: Icc },
+  { path: "/nutritech", component: Nutritech },
+  { path: "/killion", component: Killion },
+  { path: "/basf", component: Basf },
+  { path: "/sanzyme", component: Sanzyme },
+  { path: "/vetneed", component: Vetneeds },
+  { path: "/productdetails", component: Productdetails },
 ];
 
 const router = new createRouter({
-    history: createWebHistory(),
-    routes,
-})
+  history: createWebHistory(),
+  routes,
+});
 
 export default router;

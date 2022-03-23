@@ -65,7 +65,7 @@ export default {
           id: 5,
           name: "Basf Pharma",
           image: require("../../assets/partner/bs.png"),
-          url: "https://pharma.basf.com/",
+          url: "https://nutrition.basf.com/global/en/animal-nutrition.html",
           details:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic accusantium excepturi deserunt nam",
         },
@@ -73,7 +73,7 @@ export default {
           id: 6,
           name: "KILCO",
           image: require("../../assets/partner/killion.png"),
-          url: "https://www.killioncommunications.com/",
+          url: "https://www.kersia-group.com/uk",
           details:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic accusantium excepturi deserunt nam",
         },

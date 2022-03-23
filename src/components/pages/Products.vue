@@ -51,7 +51,7 @@ export default {
         {
           id: 5,
           name: "KILLION COMMUNICATIONS CONSULTENCE INC.",
-          image: require("../../assets/partner/killion.png"),
+          image: require("../../assets/partner/kilion.png"),
           url: "/killion",
         },
         {
@@ -60,11 +60,11 @@ export default {
           image: require("../../assets/partner/or.png"),
           url: "/orffa",
         },
-                {
+        {
           id: 7,
           name: "Sanzyme Biologics",
           image: require("../../assets/partner/syn.png"),
-          url:"/sanzyme",
+          url: "/sanzyme",
         },
         {
           id: 8,
@@ -91,7 +91,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 .products .image {
   width: 100%;
@@ -119,11 +119,11 @@ export default {
   padding: 10px;
   margin: 0;
 }
-.products .row .col-md-4 a{
-    text-decoration: none;
-    color: #fff;
-    padding:0;
-    margin: 0;
+.products .row .col-md-4 a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 .products .row .col-md-4 .card {
   width: 100%;
@@ -137,19 +137,19 @@ export default {
   height: 100%;
   padding: 0;
   margin: 0;
-    background: #8bc53f;
-    overflow: hidden;
+  background: #8bc53f;
+  overflow: hidden;
 }
-.products .row .col-md-4 .card .image:hover img{
-    transform: scale(1.09);
-  transition:0.3s transform ease-out;
+.products .row .col-md-4 .card .image:hover img {
+  transform: scale(1.09);
+  transition: 0.3s transform ease-out;
 }
 .products .row .col-md-4 .card .image img {
   width: 90%;
-  height: 90%;   
+  height: 90%;
   background-position: center;
   transform: scale(1);
-  transition:0.5s transform ease-out;
+  transition: 0.5s transform ease-out;
 }
 </style>
 
