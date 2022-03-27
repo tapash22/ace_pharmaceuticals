@@ -1,26 +1,19 @@
 <template>
   <div class="productdetails">
     <div class="container">
-      <div class="row">
+      <div class="row" v-for="product in products" :key="product.id">
         <div class="col-md-4">
           <div class="image">
-            <img src="../../assets/partner/ad.png" />
+            <img :src="product.image" />
           </div>
         </div>
         <div class="col-md-8">
           <div class="info">
-            <h2>ImmunoWall®</h2>
+            <h2>{{ product.name }}</h2>
           </div>
           <div class="des">
             <p>
-              ImmunoWall® prevents the colonization of the intestinal tract by
-              pathogens, stimulates the immune activity of phagocytic cells, and
-              enhances the action of beneficial bacteria such as lactobacillus
-              and bifidobacterium, creating an immunological wall against
-              diseases. ImmunoWall® also has powerful mycotoxin adsorption
-              properties. It is a premium yeast cell wall fraction, the richest
-              source of gut resistant β-glucans and mannan-oligosaccharides
-              (MOS).
+              {{ product.des }}
             </p>
           </div>
         </div>
@@ -28,7 +21,11 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  props: ["products"],
+};
+</script>
 
 <style scoped>
 .productdetails {

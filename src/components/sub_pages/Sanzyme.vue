@@ -1,32 +1,31 @@
 <template>
-    <div class="product">
-        <div class="container">
-            <h2>Products by Sanzyme</h2>
-            <div class="row">
-                <div class="col-md-3" v-for="product in products" :key="product.id">  
-                   <a :href="product.url" target="_blank"> 
-                        <div class="card">
-                            <div class="image">
-                                <img :src="product.image"/>
-                            </div>
-                            <h4>{{product.name}}</h4>
-                        </div> 
-                    </a>
-                </div>
-            </div>
-        </div>
+  <div class="product">
+    <div class="container">
+      <h2>Products by Basf</h2>
+      <div class="row">
+        <Productdetails :products="products" />
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
+import Productdetails from "./Productdetails.vue";
+
 export default {
-    data(){
-        return{
-            products:[
-                {id:1, name:"Hepatoliv Boost",url:"url",image:require('../../assets/partner/ad.png')},
-            ]
-        };
-    },
+  data() {
+    return {
+      products: [
+        {
+          id: 1,
+          name: " Hepatoliv Boost",
+          //   image: require("../../assets/product/ad.png"),
+          des: "",
+        },
+      ],
+    };
+  },
+  components: { Productdetails },
 };
 </script>
 

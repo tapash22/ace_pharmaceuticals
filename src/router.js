@@ -29,6 +29,7 @@ const routes = [
 
   { path: "/orffa", component: Orffa },
   { path: "/adifeed", component: Adifeed },
+
   { path: "/bioarmor", component: Bioarmor },
   { path: "/icc", component: Icc },
   { path: "/nutritech", component: Nutritech },
@@ -36,7 +37,11 @@ const routes = [
   { path: "/basf", component: Basf },
   { path: "/sanzyme", component: Sanzyme },
   { path: "/vetneed", component: Vetneeds },
-  { path: "/productdetails", component: Productdetails },
+  {
+    path: "/productdetails",
+    name: "Productdetails",
+    component: Productdetails,
+  },
 ];
 
 const router = new createRouter({

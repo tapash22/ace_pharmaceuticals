@@ -1,37 +1,30 @@
 <template>
   <div class="product">
     <div class="container">
-      <h2>Products by Adifeed</h2>
+      <h2>Products by Icc</h2>
       <div class="row">
-        <div class="col-md-3" v-for="product in products" :key="product.id">
-          <a :href="product.url">
-            <div class="card">
-              <div class="image">
-                <img :src="product.image" />
-              </div>
-              <h4>{{ product.name }}</h4>
-            </div>
-          </a>
-        </div>
+        <Productdetails :products="products" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Productdetails from "./Productdetails.vue";
 export default {
   data() {
     return {
       products: [
         {
           id: 1,
-          name: "Adicox AP ",
-          url: "/productdetails",
-          image: require("../../assets/partner/ad.png"),
+          name: "Adicox AP",
+          image: require("../../assets/product/adi.png"),
+          des: "AdiCox® AP to zestaw składników naturalnych (fitoncydów) wspomagający procesy odporności przeciwko infekcjom bakteryjnym oraz pierwotniakowym u zwierząt. Zapewnia utrzymanie równowagi biologicznej i wzmaga czynności układu trawiennego w przypadku infekcji drobnoustrojami patogennymi.",
         },
       ],
     };
   },
+  components: { Productdetails },
 };
 </script>
 
