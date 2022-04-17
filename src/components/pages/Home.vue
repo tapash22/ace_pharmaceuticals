@@ -20,18 +20,18 @@
           <div class="box">
             <div class="card">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Numquam fuga similique, eligendi possimus voluptate dignissimos
-                exercitationem itaque libero molestias quia soluta ipsam,
-                pariatur velit unde et obcaecati voluptatum modi iure.
+                ACE PHARMACEUTICALS is a agro based additives company, we are
+                focusing on natural products (Prebiotics, Essential oil,
+                Phytogenic, coccidiostat etc) and hygenic products for
+                Poultry,Fish and Cattle.
               </p>
             </div>
             <div class="card">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Numquam fuga similique, eligendi possimus voluptate dignissimos
-                exercitationem itaque libero molestias quia soluta ipsam,
-                pariatur velit unde et obcaecati voluptatum modi iure.
+                ACE PHARMACEUTICALS is a agro based additives company, we are
+                focusing on natural products (Prebiotics, Essential oil,
+                Phytogenic, coccidiostat etc) and hygenic products for
+                Poultry,Fish and Cattle.
               </p>
             </div>
           </div>
@@ -43,29 +43,17 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-header">
-              <h2>History</h2>
-            </div>
-            <div class="card-body">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-                quae harum quibusdam quasi pariatur culpa repudiandae at nulla
-                laborum. Voluptates iusto sequi odit pariatur, expedita omnis
-                voluptas laboriosam architecto repellat.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header">
               <h2>Mission</h2>
             </div>
             <div class="card-body">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-                quae harum quibusdam quasi pariatur culpa repudiandae at nulla
-                laborum. Voluptates iusto sequi odit pariatur, expedita omnis
-                voluptas laboriosam architecto repellat.
+                To be one of the world's leading and most admired pharmaceutical
+                companies in the global Generics industry. Our holistic approach
+                is to ensure best performing feed products at an affordable
+                price. We view ourselves as partners with the feed producers,
+                feed nutritionist, farmers, livestock professionals & all other
+                customers.To focus on New and Novel Drug Deliveries with an eye
+                on patents.
               </p>
             </div>
           </div>
@@ -77,10 +65,28 @@
             </div>
             <div class="card-body">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-                quae harum quibusdam quasi pariatur culpa repudiandae at nulla
-                laborum. Voluptates iusto sequi odit pariatur, expedita omnis
-                voluptas laboriosam architecto repellat.
+                Our vision is to be established as the best pharmaceutical
+                company in Bangladesh, in terms of expertise, innovation and
+                responsible entrepreneurship, while returning value to our
+                stakeholders to be highly ranked by healthcare professionals for
+                our expertise and accountability, as well as for the high
+                quality of our products and services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h2>Core Value</h2>
+            </div>
+            <div class="card-body">
+              <p>
+                Our commitment to business ethics, fairness, honesty and
+                transparency is equally important to us, as is to achieving
+                business success. At the end of each day, we want to be proud
+                not only for the goals we have achieved, but also for the way we
+                have achieved them.
               </p>
             </div>
           </div>

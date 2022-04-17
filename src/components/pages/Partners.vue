@@ -12,9 +12,6 @@
             </div>
             <div class="demo">
               <h3>{{ partner.name }}</h3>
-              <p>
-                {{ partner.details }}
-              </p>
               <a :href="partner.url" target="_blank">Details...</a>
             </div>
           </div>
@@ -145,7 +142,7 @@ export default {
 }
 .partners .row .col-md-4 .box {
   width: 100%;
-  height: 350px;
+  height: 300px;
   padding: 0;
   margin: 10px;
   display: block;
@@ -159,11 +156,12 @@ export default {
 }
 .col-md-4 .box .image {
   width: 100%;
-  height: 50%;
+  height: 75%;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
+  background: #f9a31a6e;
 }
 .col-md-4 .box .image img {
   width: 100%;
@@ -172,7 +170,7 @@ export default {
 }
 .col-md-4 .box .demo {
   width: 100%;
-  height: 50%;
+  height: 25%;
   padding: 0;
   margin: 0;
   display: block;
