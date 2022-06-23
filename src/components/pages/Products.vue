@@ -91,7 +91,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin-top: 110px;
 }
 .products .image {
   width: 100%;
@@ -112,6 +112,7 @@ export default {
   margin: 0;
   display: flex;
   justify-content: center;
+  background: #fff;
 }
 .products .row .col-md-4 {
   width: 32%;
@@ -150,6 +151,77 @@ export default {
   background-position: center;
   transform: scale(1);
   transition: 0.5s transform ease-out;
+}
+
+@media only screen and (max-width: 436px) {
+  .products {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-top: 100px;
+  }
+  .products .container {
+    padding: 0;
+    margin: 0;
+  }
+  .products .image {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  .products .image img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+  .products .row {
+    widows: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    display: block;
+    background: #fff;
+  }
+  .products .row .col-md-4 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  .products .row .col-md-4 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  .products .row .col-md-4 .card {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  .products .row .col-md-4 .card .image {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #8bc53f;
+    overflow: hidden;
+  }
+  .products .row .col-md-4 .card .image:hover img {
+    transform: scale(1.09);
+    transition: 0.3s transform ease-out;
+  }
+  .products .row .col-md-4 .card .image img {
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    transform: scale(1);
+    transition: 0.5s transform ease-out;
+  }
 }
 </style>
 

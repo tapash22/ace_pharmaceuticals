@@ -111,7 +111,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin-top: 110px;
 }
 .partners .image {
   width: 100%;
@@ -131,6 +131,7 @@ export default {
   height: 100%;
   padding: 10px;
   margin: 0;
+  background: #fff;
 }
 .partners .row .col-md-4 {
   width: 33%;
@@ -206,5 +207,114 @@ export default {
   color: #000;
   padding: 5px;
   margin: 0;
+}
+
+@media only screen and (max-width: 436px) {
+  .partners {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-top: 100px;
+  }
+  .partners .container {
+    padding: 0;
+    margin: 0;
+  }
+  .partners .image {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  .partners .image img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    box-shadow: 0 0 5px #f9a51a;
+  }
+  .partners .row {
+    widows: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    display: block;
+    background: #fff;
+  }
+  .partners .row .col-md-4 {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .partners .row .col-md-4 .box {
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    margin: 10px;
+    display: block;
+    border: 2px solid #f9a51a;
+    /* border: 2px solid none; */
+    transition: 0.5s border ease-out;
+  }
+  .partners .row .col-md-4 .box:hover {
+    box-shadow: 0 0 10px #f9a51a;
+    transition: 0.2s border ease-out;
+  }
+  .col-md-4 .box .image {
+    width: 100%;
+    height: 75%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #f9a31a6e;
+  }
+  .col-md-4 .box .image img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+  }
+  .col-md-4 .box .demo {
+    width: 100%;
+    height: 25%;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .col-md-4 .box .demo h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+  }
+  .col-md-4 .box .demo p {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+  }
+  .col-md-4 .box .demo a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    padding: 5px;
+    margin: 0;
+  }
 }
 </style>

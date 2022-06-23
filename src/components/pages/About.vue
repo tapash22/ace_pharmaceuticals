@@ -161,7 +161,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin-top: 110px;
 }
 .about h1 {
   font-size: 1.8rem;
@@ -171,6 +171,7 @@ export default {
   color: #f9a51a;
   padding: 10px;
   margin: 0;
+  background: #fff;
 }
 .about .row2 {
   width: 100%;
@@ -178,6 +179,7 @@ export default {
   padding: 0;
   margin: 0;
   display: flex;
+  background: #fff;
 }
 .about .row2 .col-md-6 {
   width: 50%;
@@ -253,7 +255,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 10px;
-
+  background: #fff;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -270,7 +272,7 @@ export default {
   padding: 10px;
   margin: 0;
   background: #fff;
-  border: none;
+  border-bottom: 5px solid greenyellow;
 }
 .about .row .col-md-4 .card:hover {
   box-shadow: 0 0 10px greenyellow;
@@ -308,6 +310,7 @@ export default {
   padding: 0;
   margin: 0;
   display: flex;
+  background: #fff;
 }
 .about .row3 .col-md-3 {
   width: 25%;
@@ -360,5 +363,211 @@ export default {
   text-align: center;
   padding: 5px;
   margin: 0;
+}
+
+@media only screen and (max-width: 436px) {
+  .about {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-top: 100px;
+    background: #fff;
+  }
+  .about h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: #f9a51a;
+    padding: 10px;
+    margin: 0;
+  }
+  .about .row2 {
+    widows: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .about .row2 .col-md-6 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  .about .row2 .col-md-6 .box {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .about .row2 .col-md-6 .box:hover {
+    box-shadow: 0 0 10px #f9a51a;
+  }
+  .about .row2 .col-md-6 .box .image {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #f9a51a;
+  }
+  .about .row2 .col-md-6 .box .image img {
+    width: 100%;
+    height: 50%;
+    /* object-fit: cover; */
+    background-position: center;
+  }
+  .about .row2 .col-md-6 .box .image h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .about .row2 .col-md-6 .box .details {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    border: 1px solid #f9a51a;
+  }
+  .about .row2 .col-md-6 .box .details h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    background: #f9a51a;
+  }
+  .about .row2 .col-md-6 .box .details h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .about .row2 .col-md-6 .box .details p {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    padding: 10px;
+    margin: 0;
+    text-align: justify;
+  }
+  .about .row {
+    widows: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    display: block;
+  }
+  .about .row .col-md-4 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 5px;
+  }
+  .about .row .col-md-4 .card {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    background: #fff;
+    border-bottom: 5px solid greenyellow;
+  }
+  .about .row .col-md-4 .card:hover {
+    box-shadow: 0 0 10px greenyellow;
+    cursor: pointer;
+  }
+  .about .row .col-md-4 .card .card-header {
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #f9a51a;
+  }
+  .about .row .col-md-4 .card .card-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .about .row .col-md-4 .card .card-body {
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+    margin: 0;
+  }
+  .about .row .col-md-4 .card .card-body p {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+  }
+  .about .row3 {
+    widows: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .about .row3 .col-md-3 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  .about .row3 .col-md-3 .card {
+    width: 100%;
+    height: 320px;
+    padding: 5px;
+    margin: 0;
+    background: #f9a51a;
+  }
+  .about .row3 .col-md-3 .card:hover {
+    box-shadow: 0 0 10px #f9a51a;
+    cursor: pointer;
+  }
+  .about .row3 .card .card-header {
+    width: 100%;
+    height: 60%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border: none;
+  }
+  .about .row3 .card .card-header img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+    /* object-fit: cover; */
+  }
+  .about .row3 .card .card-body {
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    margin: 0;
+  }
+  .about .row3 .card .card-body h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  .about .row3 .card .card-body p {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+  }
 }
 </style>

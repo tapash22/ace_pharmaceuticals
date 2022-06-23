@@ -37,7 +37,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin-top: 110px;
 }
 .gallery h1 {
   font-size: 1.8rem;
@@ -54,6 +54,7 @@ export default {
   padding: 0;
   margin: 0;
   display: flex;
+  background: #fff;
 }
 .row .col-md-4 {
   width: 33%;
@@ -80,5 +81,61 @@ export default {
 .row .col-md-4 .card:hover img {
   transform: scale(1.09);
   transition: 0.3s transform ease-out;
+}
+
+@media only screen and (max-width: 436px) {
+  .gallery {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-top: 100px;
+  }
+  .gallery .container {
+    padding: 0;
+    margin: 0;
+  }
+  .gallery h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: #f9a51a;
+    padding: 10px;
+    margin: 0;
+  }
+  .row {
+    widows: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: #fff;
+  }
+  .row .col-md-4 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .row .col-md-4 .card {
+    width: 90%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  .row .col-md-4 .card img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    transform: scale(1);
+    transition: 0.5s transform ease-out;
+  }
+  .row .col-md-4 .card:hover img {
+    transform: scale(1.09);
+    transition: 0.3s transform ease-out;
+  }
 }
 </style>

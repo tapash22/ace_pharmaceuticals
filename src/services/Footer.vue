@@ -17,17 +17,6 @@
             <li><p>+880258156958</p></li>
             <li><p>acepharma15@gmail.com</p></li>
           </ul>
-          <!-- <ul>
-              <li><a href="https://www.iccbrazil.com/en/">ICC</a></li>
-              <li><a href="https://adifeed.pl/">AdiFeed</a></li>
-              <li><a href="https://bioarmor.com/en/">Bioarmor</a></li>
-              <li><a href="http://www.globalnutritech.com/">Global Nutritech</a></li>
-              <li><a href="https://www.killioncommunications.com/">killion</a></li>
-              <li><a href="https://pharma.basf.com/">Basf</a></li>
-              <li><a href="https://www.sanzymebiologics.com/">Sanzyme Biologics</a></li>
-              <li><a href="http://vetneedsgroup.com/">Vet Needs</a></li>
-              <li><a href="https://orffa.com/">Orffa</a></li>
-          </ul> -->
         </div>
       </div>
       <div class="row3">
@@ -74,7 +63,7 @@
         </div>
       </div>
       <div class="row2">
-        <p>Developed by ultrawave.digital</p>
+        <p>Developed by Ultrawave.Digital</p>
       </div>
     </div>
   </div>
@@ -240,5 +229,175 @@
   font-weight: 6000;
   font-family: "Playfair Display", serif;
   color: #8bc53f;
+}
+
+@media only screen and (max-width: 436px) {
+  .footer {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .footer .container {
+    padding: 0;
+    margin: 0;
+  }
+  .footer .row {
+    widows: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 128, 0, 0.356);
+  }
+  .row .col-md-12 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .row .col-md-12 ul {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .row .col-md-12 ul li {
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .row .col-md-12 ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+  }
+  .row .col-md-12 ul li a:hover {
+    color: #8bc53f;
+  }
+  .row .col-md-12 ul li a i {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #000;
+    padding: 5px;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #f9a51a;
+    display: flex;
+    justify-content: center;
+  }
+  .row .col-md-12 ul li p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    padding: 2px;
+    margin: 0;
+  }
+  .footer .row3 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: rgba(0, 128, 0, 0.63);
+  }
+  .row3 .col-md-4 {
+    width: 100%;
+    height: 100%;
+    padding: 10;
+    margin: 0;
+    display: block;
+  }
+  .row3 .col-md-4 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  .row3 .col-md-4 address {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+    margin-left: 25%;
+    padding: 10px;
+  }
+  .row3 .col-md-8 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: rgba(0, 128, 0, 0.411);
+  }
+  .row3 .col-md-8 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  .row3 .col-md-8 ul {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+    display: grid;
+  }
+  .row3 .col-md-8 ul li {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+  }
+  .row3 .col-md-8 ul li a {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-decoration: underline;
+    color: #000;
+    padding: 0;
+    margin: 2px;
+    line-height: 20px;
+  }
+  .footer .row2 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: green;
+  }
+  .footer .row2 p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    letter-spacing: 1px;
+  }
+  .row .col-md-12 ul .login {
+    margin-top: 10px;
+  }
+  .row .col-md-12 ul .login a {
+    font-size: 1.2rem;
+    font-weight: 6000;
+    font-family: "Playfair Display", serif;
+    color: #8bc53f;
+  }
 }
 </style>

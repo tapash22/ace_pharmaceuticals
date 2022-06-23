@@ -1,24 +1,13 @@
 <template>
   <div id="app">
-    <Navigation/>
-    <div class="content">
-      <router-view/>
-    </div>
-    <Footer/>
+    <router-view />
   </div>
 </template>
 
 <script>
-import Navigation from "./services/Navigation.vue"
-import Footer from "./services/Footer.vue";
-
 export default {
-  name: 'App',
-  components: {
-    Navigation,
-    Footer,
-  }
-}
+  name: "App",
+};
 </script>
 
 <style>
@@ -27,5 +16,13 @@ export default {
   height: 100%;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (min-width: 436px) {
+  #app {
+    widows: 100%;
+    height: auto;
+    background: #fff;
+  }
 }
 </style>
