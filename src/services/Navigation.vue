@@ -467,13 +467,14 @@ nav ul li .ul li .two li a {
     background: #fff;
   }
   .navigation .mobile {
-    widows: 80%;
+    widows: 100%;
     height: 100px;
     padding: 0;
     margin: 0;
     background: #465869;
     display: block;
   }
+
   .navigation .mobile nav {
     width: 100%;
     height: 100px;
