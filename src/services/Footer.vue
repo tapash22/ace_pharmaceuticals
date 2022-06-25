@@ -186,6 +186,7 @@
   padding: 0;
   margin: 0;
   display: flex;
+  justify-content: center;
 }
 .row3 .col-md-8 ul li {
   list-style: none;
@@ -355,12 +356,16 @@
     height: 100%;
     padding: 5px;
     margin: 0;
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
   .row3 .col-md-8 ul li {
+    width: 100%;
     list-style: none;
     padding: 5px;
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
   .row3 .col-md-8 ul li a {
     font-size: 1rem;

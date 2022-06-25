@@ -149,12 +149,12 @@
       </nav>
     </div>
 
-    <div class="mini">
+    <div class="mobile">
       <nav>
-        <div class="first">
-          <a class="brand">
+        <div class="row">
+          <div class="image">
             <img src="../assets/image/ace_logo.png" />
-          </a>
+          </div>
           <div class="btn" @click="onClick()">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </div>
@@ -322,14 +322,15 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
-.navigation .mini {
+.navigation .mobile {
   display: none;
 }
 .full nav {
   background: rgb(253, 253, 253);
-  width: 100%;
+  width: 67%;
   height: 110px;
   padding: 0;
   margin: 0;
@@ -337,7 +338,7 @@
   box-shadow: 0 0 5px #f9a51a;
   display: flex;
 }
-.brand {
+nav .brand {
   width: 30%;
   height: 100px;
   padding: 0;
@@ -458,66 +459,62 @@ nav ul li .ul li .two li a {
 
 @media only screen and (max-width: 436px) {
   .navigation {
-    widows: 100%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     padding: 0;
     margin: 0;
     position: fixed;
-    display: flex;
-    z-index: 99;
+    background: #fff;
   }
-  .navigation .full {
-    display: none;
-  }
-  .navigation .mini {
-    width: 100%;
-    height: 100%;
+  .navigation .mobile {
+    widows: 80%;
+    height: 100px;
     padding: 0;
     margin: 0;
+    background: #465869;
     display: block;
   }
-  .navigation .mini nav {
-    widows: 100%;
-    height: 100px;
-    padding: 0;
-    margin: 0;
-    z-index: 99;
-    display: flex;
-    background: rgb(97, 150, 80);
-  }
-  .mini nav .first {
+  .navigation .mobile nav {
     width: 100%;
     height: 100px;
     padding: 0;
     margin: 0;
+  }
+  .mobile nav .row {
+    widows: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     display: flex;
   }
-  .mini nav .first .brand {
-    width: 60%;
+  .mobile nav .row .image {
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    margin: 0;
+  }
+  .mobile nav .row .image img {
+    width: 200px;
+    height: 100%;
+  }
+  .mobile nav .row .btn {
+    width: 50%;
     height: 100%;
     padding: 10px;
     margin: 0;
-    text-decoration: none;
-  }
-  .mini nav .first .brand img {
-    width: 150px;
-    height: 90%;
-  }
-  .mini nav .first .btn {
-    width: 40%;
-    height: 100%;
-    padding: 10px;
-    margin: 10px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
   }
-  .mini nav .first .btn i {
+  .mobile nav .row .btn i {
     font-size: 1.8rem;
     font-weight: 900;
     padding: 10px;
-    margin: 0;
+    margin: 5px;
   }
-  .mini nav ul {
+  .mobile nav ul {
+    display: none;
+  }
+  .navigation .full {
     display: none;
   }
 }
